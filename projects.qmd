@@ -1,0 +1,7 @@
+---
+title: "Projects"
+toc: false
+page-layout: full
+---
+
+Projects will be listed here.

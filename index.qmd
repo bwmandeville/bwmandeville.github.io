@@ -1,0 +1,20 @@
+---
+title: "<span class='bold'>Brian Mandeville</span>  <span class='not-bold'>| Welcome</span>"
+page-layout: full
+---
+
+<div style="text-align: center; margin-top: 30px; margin-bottom: 25px;">
+  <img src="images/headshot.png" alt="Brian Mandeville" style="width: 250px; border-radius: 50%;">
+</div>
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 25px;">
+  <a href="../files/cv.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
+</div>
+
+I am a PhD candidate in Economics at George Mason University (expected May 2027), where I am also a PhD Fellow at the [Mercatus Center](https://www.mercatus.org/) and an Adam Smith Fellow. I teach as a Graduate Lecturer at George Mason University and as an Adjunct Lecturer at Catholic University of America.
+
+My [research](research.html) examines the interaction between norms, beliefs, and formal political institutions; the application of Public Choice theory to the nonprofit realm; and the importance of virtue and citizenship writ broadly.
+
+I have found very little to be more rewarding than interacting with my students and helping them understand the benefits of social cooperation that arise as a result of markets and the division of labor.
+
+You can reach me at [bwmandeville@gmail.com](mailto:bwmandeville@gmail.com).

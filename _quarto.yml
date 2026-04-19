@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+    - "!CV-PIPELINE.md"
+  resources:
+    - "files/"
+    - "llms.txt"
+    - "CNAME"
+    - ".nojekyll"
+
+execute:
+  freeze: auto
+
+website:
+  title: "Brian Mandeville"
+  favicon: images/favicon.png
+  search: false
+  sidebar:
+    tools:
+      - icon: envelope
+        href: mailto:bwmandeville@gmail.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/brian-mandeville-ab6188176/
+
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "CV"
+        href: ../files/cv.pdf
+      - research.qmd
+      - teaching.qmd
+      - talks.qmd
+
+  page-footer:
+      border: false
+      left: © 2025 Brian Mandeville
+      right: Powered by [Quarto](https://quarto.org/)
+
+  open-graph: true
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: [darkly, custom_dark.scss]
+    meta:
+      title: "Brian Mandeville | Economics & Public Choice"
+      description: "PhD candidate in Economics at George Mason University. Research on norms, institutions, public choice, and nonprofits."
+      author: "Brian Mandeville"
+      image: "images/headshot.png"
+      og:title: "Brian Mandeville"
+      og:description: "PhD candidate in Economics at George Mason University"
+      og:image: "https://bwmandeville.github.io/images/headshot.png"

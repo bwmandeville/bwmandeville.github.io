@@ -1,0 +1,31 @@
+---
+title: "Teaching"
+description: ""
+listing:
+- id: previous
+  include:
+    type: "previous"
+  contents: teaching.yaml
+  type: table
+  fields: [title, Term, Institution]
+  filter-ui: false
+  sort: "date desc"
+  sort-ui: false
+toc: false
+page-layout: full
+---
+
+## Courses Taught
+
+:::{#previous}
+:::
+
+### Selected Student Evaluations
+
+"A really high quality teacher -- was able to speak intelligently on many different issues, and was always happy to discuss and answer questions after class"
+
+"He was the best professor I have had here"
+
+"Professor Mandeville was incredibly helpful and always made the material easy to understand. He explained concepts clearly, provided relatable examples, and kept us engaged throughout every lesson. Not only was he smart and well-prepared, but he also created a friendly and welcoming environment. His sense of humor made class enjoyable, and his willingness to answer questions or offer support truly made a difference in my learning experience."
+
+"Mr. Mandeville is the GOAT"

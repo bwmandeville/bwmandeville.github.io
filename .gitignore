@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/.quarto/
+/_site/
+/_freeze/
+.DS_Store
+
+/.luarc.json
+
+# Private project notes — not for public repo
+CLAUDE.md
+CV-PIPELINE.md
+
+**/*.quarto_ipynb

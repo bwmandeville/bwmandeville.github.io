@@ -1,0 +1,43 @@
+# Newer entries on top
+
+- title: "Contemporary Macroeconomic Principles"
+  date: 2026-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Spring 2026"
+  Institution: "George Mason University"
+  type: "previous"
+
+- title: "Markets and Prosperity II (2 sections)"
+  date: 2026-01-02
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Spring 2026"
+  Institution: "Catholic University of America"
+  type: "previous"
+
+- title: "International Economics"
+  date: 2025-09-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Fall 2025"
+  Institution: "George Mason University"
+  type: "previous"
+
+- title: "Markets and Prosperity I (2 sections)"
+  date: 2025-09-02
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Fall 2025"
+  Institution: "Catholic University of America"
+  type: "previous"
+
+- title: "Contemporary Macroeconomic Principles"
+  date: 2025-01-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Spring 2025"
+  Institution: "George Mason University"
+  type: "previous"
+
+- title: "International Economic Policy"
+  date: 2024-09-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Fall 2024"
+  Institution: "George Mason University"
+  type: "previous"

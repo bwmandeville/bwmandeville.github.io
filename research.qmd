@@ -1,0 +1,57 @@
+---
+title: "Research"
+description: ""
+listing:
+  - id: working-papers
+    include:
+      type: "Working"
+    contents: research.yaml
+    template: research.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+  - id: in-progress
+    include:
+      type: "Progress"
+    contents: research.yaml
+    template: research.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+  - id: published-papers
+    include:
+      type: "Published"
+    contents: research.yaml
+    template: research.ejs
+    sort: "date desc"
+    sort-ui: false
+  - id: books
+    include:
+      type: "Books"
+    contents: research.yaml
+    template: research.ejs
+    sort: "date desc"
+    sort-ui: false
+toc: false
+page-layout: full
+---
+
+## Peer-Reviewed Publications
+
+:::{#published-papers}
+:::
+
+## Working Papers
+
+:::{#working-papers}
+:::
+
+## Works in Progress
+
+:::{#in-progress}
+:::
+
+## Book Chapters
+
+:::{#books}
+:::
