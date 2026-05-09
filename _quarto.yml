@@ -32,7 +32,8 @@ website:
         href: ../files/cv.pdf
       - research.qmd
       - teaching.qmd
-      - talks.qmd
+      - text: "Presentations & Writing"
+        href: talks.qmd
 
   page-footer:
       border: false

@@ -1,8 +1,65 @@
 # Newer entries on top
-# Add presentations and media appearances here as they accumulate.
-# Example entry:
-#
-# - date: 2026-01-01
-#   type: "presentations"
-#   title: "Talk Title"
-#   with: "Conference Name, Location, Date"
+
+### CONFERENCE PRESENTATIONS
+
+- date: 2026-04-02
+  type: "presentations"
+  title: "<b>Information Without Accountability: Expressive Donations and Social Costs in the Nonprofit Sector</b>"
+  with: "Frontiers in Public Choice Session. APEE 50th Annual Meeting, Las Vegas, NV, April 2026"
+
+- date: 2026-04-01
+  type: "presentations"
+  title: "<b>From Earned Authority to Imposed Authority: How Government Funding Transforms Nonprofit Accountability</b>"
+  with: "Ideology, Political Capitalism, and Populism Session. APEE 50th Annual Meeting, Las Vegas, NV, April 2026"
+
+- date: 2026-03-01
+  type: "presentations"
+  title: "<b>From Earned Authority to Imposed Authority: How Government Funding Transforms Nonprofit Accountability</b>"
+  with: "Organizations in the Polity: Commons, Capture & Collective Action Session (Session Chair). 2026 Public Choice Society Meetings, San Antonio, TX, March 2026"
+
+- date: 2026-02-01
+  type: "presentations"
+  title: "<b>The Robber-Government Comparison: Two Traditions Other Than Avowed Libertarians</b>"
+  with: "1776 and Today: Charlottesville Conference, Charlottesville, VA, February 2026"
+
+- date: 2025-11-01
+  type: "presentations"
+  title: "<b>Information Without Accountability: Expressive Donations and Social Costs in the Nonprofit Sector</b>"
+  with: "Industrial Organization IV Session. Southern Economic Association 95th Annual Meeting, Tampa, FL, November 2025"
+
+- date: 2025-10-01
+  type: "presentations"
+  title: "<b>House Rules</b>"
+  with: "New Perspectives on Governance Session. 2025 Markets and Society Conference, Falls Church, VA, October 2025"
+
+- date: 2025-07-01
+  type: "presentations"
+  title: "<b>The Robber-Government Comparison: Two Traditions Other Than Avowed Libertarians</b>"
+  with: "Timbro Classical Liberalism Summer Seminar, Sigtuna, Sweden, July 2025"
+
+- date: 2025-04-01
+  type: "presentations"
+  title: "<b>The Highwayman and Books of Casuistry: Smith's Indictment of Governmentalization in TMS</b>"
+  with: "New Perspectives on Adam Smith Session. APEE 49th Annual Meeting, Guatemala City, Guatemala, April 2025"
+
+- date: 2025-03-01
+  type: "presentations"
+  title: "<b>Expressive Donating: The Manipulation of Information in Pit-Bull Advocacy</b>"
+  with: "Applications of Political Economy and Economic Freedom Session (Session Chair). 2025 Public Choice Society Meetings, Louisville, KY, March 2025"
+
+### PUBLIC WRITING
+
+- date: 2025-12-24
+  type: "media"
+  title: "<b>The Robber and the Government: Differences and One Great Big Likeness</b>"
+  with: "<em>Just Sentiments</em>, hosted by Libertarianism.org, December 24, 2025"
+
+- date: 2021-07-28
+  type: "media"
+  title: "<b>Besides Lost Jobs, 3 More Ways Minimum Wage Laws Hurt Workers They're Meant to Help</b>"
+  with: "with R. Grezler and M. Baker. <em>The Daily Signal</em>, July 28, 2021"
+
+- date: 2021-06-30
+  type: "media"
+  title: "<b>A Commonsense Bill That Will Ensure IRS Agents Do Their Jobs</b>"
+  with: "with R. Grezler. <em>The Daily Signal</em>, June 30, 2021"

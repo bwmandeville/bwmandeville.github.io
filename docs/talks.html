@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Presentations – Brian Mandeville</title>
+<title>Presentations &amp; Writing – Brian Mandeville</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <link href="./images/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -59,10 +61,95 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-presentations .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="Presentations – Brian Mandeville">
-<meta property="og:description" content="">
+    const options = {
+      valueNames: ['listing-date','listing-type','listing-title','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-type","listing-title","listing-with"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-presentations'] = new List('listing-presentations', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-media .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-type','listing-title','listing-with',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-type","listing-title","listing-with"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-media'] = new List('listing-media', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Presentations &amp; Writing – Brian Mandeville">
 <meta property="og:site_name" content="Brian Mandeville">
 </head>
 
@@ -237,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./talks.html">Presentations</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./talks.html">Presentations &amp; Writing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -286,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./talks.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Presentations</span></a>
+ <span class="menu-text">Presentations &amp; Writing</span></a>
   </div>
 </li>
     </ul>
@@ -301,7 +388,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentations</h1>
+<h1 class="title">Presentations &amp; Writing</h1>
 </div>
 
 
@@ -318,9 +405,475 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Presentations and media appearances will be listed here as they accumulate.</p>
+<section id="conferences-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="conferences-presentations">Conferences &amp; Presentations</h2>
+<div id="listing-presentations" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1775102400000">
+      <b>Information Without Accountability: Expressive Donations and Social Costs in the Nonprofit Sector</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Frontiers in Public Choice Session. APEE 50th Annual Meeting, Las Vegas, NV, April 2026
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1775016000000">
+      <b>From Earned Authority to Imposed Authority: How Government Funding Transforms Nonprofit Accountability</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Ideology, Political Capitalism, and Populism Session. APEE 50th Annual Meeting, Las Vegas, NV, April 2026
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1772341200000">
+      <b>From Earned Authority to Imposed Authority: How Government Funding Transforms Nonprofit Accountability</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Organizations in the Polity: Commons, Capture &amp; Collective Action Session (Session Chair). 2026 Public Choice Society Meetings, San Antonio, TX, March 2026
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='3' data-listing-date-sort="1769922000000">
+      <b>The Robber-Government Comparison: Two Traditions Other Than Avowed Libertarians</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          1776 and Today: Charlottesville Conference, Charlottesville, VA, February 2026
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='4' data-listing-date-sort="1761969600000">
+      <b>Information Without Accountability: Expressive Donations and Social Costs in the Nonprofit Sector</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Industrial Organization IV Session. Southern Economic Association 95th Annual Meeting, Tampa, FL, November 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='5' data-listing-date-sort="1759291200000">
+      <b>House Rules</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          New Perspectives on Governance Session. 2025 Markets and Society Conference, Falls Church, VA, October 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='6' data-listing-date-sort="1751342400000">
+      <b>The Robber-Government Comparison: Two Traditions Other Than Avowed Libertarians</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Timbro Classical Liberalism Summer Seminar, Sigtuna, Sweden, July 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='7' data-listing-date-sort="1743480000000">
+      <b>The Highwayman and Books of Casuistry: Smith's Indictment of Governmentalization in TMS</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          New Perspectives on Adam Smith Session. APEE 49th Annual Meeting, Guatemala City, Guatemala, April 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='8' data-listing-date-sort="1740805200000">
+      <b>Expressive Donating: The Manipulation of Information in Pit-Bull Advocacy</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          Applications of Political Economy and Economic Freedom Session (Session Chair). 2025 Public Choice Society Meetings, Louisville, KY, March 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+</data-index='8'></data-index='7'></data-index='6'></data-index='5'></data-index='4'></data-index='3'></data-index='2'></data-index='1'></data-index='0'></ul>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="public-writing" class="level2">
+<h2 class="anchored" data-anchor-id="public-writing">Public Writing</h2>
+<div id="listing-media" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+  .btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+  }
+  .ai-lg {
+    font-size: 1.2em;  /* Adjust as needed */
+  }
+</style>
+
+<ul class="list">
+  
+    <data-index='0' data-listing-date-sort="1766552400000">
+      <b>The Robber and the Government: Differences and One Great Big Likeness</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          <em>Just Sentiments</em>, hosted by Libertarianism.org, December 24, 2025
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='1' data-listing-date-sort="1627444800000">
+      <b>Besides Lost Jobs, 3 More Ways Minimum Wage Laws Hurt Workers They're Meant to Help</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with R. Grezler and M. Baker. <em>The Daily Signal</em>, July 28, 2021
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+    <data-index='2' data-listing-date-sort="1625025600000">
+      <b>A Commonsense Bill That Will Ensure IRS Agents Do Their Jobs</b> 
+      
+      <!-- coauthor info if needed -->
+      
+      <br>
+        <small class="text-muted">
+          with R. Grezler. <em>The Daily Signal</em>, June 30, 2021
+        </small>
+      
+      
+      <!-- paper info for working papers -->
+      
+
+      <!-- paper info for published work -->
+      
+      
+      
+       
+      
+
+      
+
+      <!-- paper info for R&R -->
+      
+
+      <!-- paper info for working papers -->
+      
+      
+      
+    
+      <p></p>
+      <hr>
+    
+  
+</data-index='2'></data-index='1'></data-index='0'></ul>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

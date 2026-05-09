@@ -1,8 +1,33 @@
 ---
-title: "Presentations"
+title: "Presentations & Writing"
 description: ""
+listing:
+- id: presentations
+  include:
+    type: "presentations"
+  contents: talks.yaml
+  template: research.ejs
+  filter-ui: false
+  sort: "date desc"
+  sort-ui: false
+- id: media
+  include:
+    type: "media"
+  contents: talks.yaml
+  template: research.ejs
+  filter-ui: false
+  sort: "date desc"
+  sort-ui: false
 toc: false
 page-layout: full
 ---
 
-Presentations and media appearances will be listed here as they accumulate.
+## Conferences & Presentations
+
+:::{#presentations}
+:::
+
+## Public Writing
+
+:::{#media}
+:::

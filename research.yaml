@@ -1,6 +1,12 @@
 # Newer entries on top
 
-######### PUBLISHED PAPERS
+######### PEER-REVIEWED PUBLICATIONS
+
+- title: "<b>Learning to Trust: Why Family-Embedded Experiences Matter for Social Cooperation</b>"
+  type: "Published"
+  date: 2026-05-04
+  journal: "<em>Cosmos + Taxis</em>"
+  year: "Conditionally Accepted"
 
 - title: "<b>House Rules</b>"
   type: "Published"
@@ -25,30 +31,45 @@
 
 ######### WORKING PAPERS
 
+- title: "<b>From Earned Authority to Imposed Authority: How Government Funding Transforms Nonprofit Accountability</b>"
+  type: "Working"
+  date: 2026-05-03
+  with: "Under review at <em>Public Choice</em> (submitted May 2026)"
+
 - title: "<b>Information Without Accountability</b>"
   type: "Working"
   date: 2026-04-10
-  with: "Submitted to <em>Journal of Institutional Economics</em>, April 2026"
-
-- title: "<b>Learning to Trust: Why Family-Embedded Experiences Matter for Social Cooperation</b>"
-  type: "Working"
-  date: 2026-01-01
-  with: "Submitted to <em>Cosmos + Taxis</em>, January 2026"
+  with: "Under review at <em>Journal of Institutional Economics</em> (submitted April 2026)"
 
 ######### WORKS IN PROGRESS
 
-- title: "<b>From Earned Authority to Imposed Authority: How Government Funding Transforms Nonprofit Accountability</b>"
+- title: "<b>Beyond Voluntary Failure</b>"
+  type: "Progress"
+  date: 2025-09-01
+  with: "with Christopher J. Coyne"
+
+- title: "<b>Does Government-Nonprofit Contracting Instantiate Democratic Priority-Setting?</b>"
+  type: "Progress"
+  date: 2025-08-01
+  with: "with Thomas J. Hughes"
+
+- title: "<b>The Hansmann Inversion: Nonprofit Trust Signals and The Persistence of Lemons in Animal Sheltering</b>"
+  type: "Progress"
+  date: 2025-07-01
+
+- title: "<b>Toward a Classical Liberal Urban Governance</b>"
   type: "Progress"
   date: 2025-06-01
+  with: "with Eugenio Gerardo Garza Garza"
 
-- title: "<b>An Institutionally Antiseptic Economics of Nonprofits</b>"
+- title: "<b>Locked In or Optimizing? Demotivating Beliefs and Institutional Quality</b>"
   type: "Progress"
   date: 2025-05-01
 
-- title: "<b>The Highwayman and Books of Casuistry: Smith's Indictment of Governmentalization in TMS</b>"
+- title: "<b>An Institutionally Antiseptic Economics of Nonprofits</b>"
   type: "Progress"
   date: 2025-04-01
 
-- title: "<b>Profitable Persistence</b>"
+- title: "<b>From Highwayman to Books of Casuistry</b>"
   type: "Progress"
   date: 2025-03-01
