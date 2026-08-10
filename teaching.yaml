@@ -1,6 +1,13 @@
 # Newer entries on top
 
 - title: "Contemporary Macroeconomic Principles"
+  date: 2026-09-01
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
+  Term: "Fall 2026"
+  Institution: "George Mason University"
+  type: "previous"
+
+- title: "Contemporary Macroeconomic Principles"
   date: 2026-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "Spring 2026"
