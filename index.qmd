@@ -11,7 +11,7 @@ page-layout: full
   <a href="../files/cv.pdf" class="btn btn-primary" role="button" download>Download my CV</a>
 </div>
 
-I am a PhD candidate in Economics at George Mason University (expected May 2027), where I am also an Adam Smith Fellow. I teach as a Graduate Lecturer in the Department of Economics.
+I am a PhD candidate in Economics at George Mason University (expected May 2027), where I am also an Adam Smith Fellow. I was previously a PhD Fellow at the [Mercatus Center](https://www.mercatus.org/) (2022–2026). I teach as a Graduate Lecturer in the Department of Economics.
 
 My [research](research.html) examines the interaction between norms, beliefs, and formal political institutions; the application of Public Choice theory to the nonprofit realm; and the importance of virtue and citizenship writ broadly.
 
