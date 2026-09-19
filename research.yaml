@@ -17,7 +17,7 @@
 - title: "<b>The Government–Robber Comparison: A Long-Standing Tradition Beyond Avowed Libertarianism</b>"
   type: "Published"
   date: 2025-01-01
-  journal: "<em>Economic Affairs</em>"
+  journal: "<em>Economic Affairs</em> 46(1): 41–58"
   year: 2025
   pubopen: "https://doi.org/10.1111/ecaf.70020"
 
@@ -35,9 +35,11 @@
   type: "Working"
   date: 2026-05-03
 
-- title: "<b>Information Without Accountability</b>"
+- title: "<b>Information Without Accountability: Externalities, Expressive Giving, and the Limits of Nonprofit Governance</b>"
   type: "Working"
-  date: 2026-04-10
+  date: 2026-09-13
+  status: "Job Market Paper"
+  pubopen: "http://dx.doi.org/10.2139/ssrn.7398198"
 
 ######### WORKS IN PROGRESS
 
@@ -49,6 +51,12 @@
   type: "Progress"
   date: 2025-09-01
   with: "with Christopher J. Coyne"
+  status: "[Dissertation Chapter 3]"
+
+- title: "<b>Funder Dependence and Political Allocation: A Public Choice Theory of Government-Nonprofit Contracting</b>"
+  type: "Progress"
+  date: 2026-09-01
+  status: "[Dissertation Chapter 2]"
 
 - title: "<b>Does Government-Nonprofit Contracting Instantiate Democratic Priority-Setting?</b>"
   type: "Progress"
@@ -64,9 +72,10 @@
   date: 2025-06-01
   with: "with Eugenio Gerardo Garza Garza"
 
-- title: "<b>Locked In or Optimizing? Demotivating Beliefs and Institutional Quality</b>"
+- title: "<b>Contraband in Nuevo León, 1848–1890</b>"
   type: "Progress"
   date: 2025-05-01
+  with: "with Eugenio Gerardo Garza Garza and Robert Biolsi"
 
 - title: "<b>An Institutionally Antiseptic Economics of Nonprofits</b>"
   type: "Progress"
