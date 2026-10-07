@@ -2,11 +2,11 @@
 
 ######### PEER-REVIEWED PUBLICATIONS
 
-- title: "<b>Learning to Trust: Why Family-Embedded Experiences Matter for Social Cooperation</b>"
+- title: "<b>Bridging the Trust Gap: How Parent-Connected Networks Extend Cooperation Beyond the Family</b>"
   type: "Published"
   date: 2026-05-04
   journal: "<em>Cosmos + Taxis</em>"
-  year: "Forthcoming"
+  year: "Forthcoming (2027)"
 
 - title: "<b>House Rules</b>"
   type: "Published"
@@ -31,37 +31,42 @@
 
 ######### WORKING PAPERS
 
-- title: "<b>From Earned Authority to Imposed Authority: How Government Funding Transforms Nonprofit Accountability</b>"
-  type: "Working"
-  date: 2026-05-03
-
 - title: "<b>Information Without Accountability: Externalities, Expressive Giving, and the Limits of Nonprofit Governance</b>"
   type: "Working"
   date: 2026-09-13
   status: "Job Market Paper"
   pubopen: "http://dx.doi.org/10.2139/ssrn.7398198"
 
-######### WORKS IN PROGRESS
-
-- title: "<b>Answering the Wrong Question: Salamon, Nisbet, and the Conservative Critique of Government-Nonprofit Partnership</b>"
-  type: "Progress"
-  date: 2025-10-01
-
 - title: "<b>Beyond Voluntary Failure</b>"
-  type: "Progress"
-  date: 2025-09-01
+  type: "Working"
+  date: 2026-09-01
   with: "with Christopher J. Coyne"
-  status: "[Dissertation Chapter 3]"
+  status: "[Dissertation Chapter 2]"
+
+- title: "<b>Does Government-Nonprofit Contracting Instantiate Democratic Priority-Setting?</b>"
+  type: "Working"
+  date: 2025-08-01
+  with: "with Thomas J. Hughes"
+
+######### WORKS IN PROGRESS
 
 - title: "<b>Funder Dependence and Political Allocation: A Public Choice Theory of Government-Nonprofit Contracting</b>"
   type: "Progress"
   date: 2026-09-01
-  status: "[Dissertation Chapter 2]"
+  status: "[Dissertation Chapter 3]"
 
-- title: "<b>Does Government-Nonprofit Contracting Instantiate Democratic Priority-Setting?</b>"
+- title: "<b>Embedded, Not Entrapped: What Declining Membership Cannot Show</b>"
   type: "Progress"
-  date: 2025-08-01
-  with: "with Thomas J. Hughes"
+  date: 2026-10-01
+  with: "with Robert Vincent Biolsi, Jr."
+
+- title: "<b>Discovering the Boundaries of Nonprofit Organization: Marketization, Contract Failure, and Institutional Discovery</b>"
+  type: "Progress"
+  date: 2026-08-01
+
+- title: "<b>Answering the Wrong Question: Salamon, Nisbet, and the Conservative Critique of Government-Nonprofit Partnership</b>"
+  type: "Progress"
+  date: 2025-10-01
 
 - title: "<b>The Hansmann Inversion: Nonprofit Trust Signals and The Persistence of Lemons in Animal Sheltering</b>"
   type: "Progress"
